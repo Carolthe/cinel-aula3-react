@@ -1,0 +1,11 @@
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  background-color: #c48888;
+  display: flex;
+  justify-content: center;
+}
+.foto{
+  width: 60px;
+}
