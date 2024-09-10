@@ -4,7 +4,9 @@ export default function DriveCart (props){
             <img className="foto" src={props.img} />
           <div>
             <h1>{props.name}</h1>
+            <p>{props.rating}</p>
             <p>{props.paragrafo}</p>
-       </div> </div>
+       </div> 
+       </div>
     )
 }

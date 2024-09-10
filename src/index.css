@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  background-color: #c48888;  
+  background-color: #d2d2d2;  
   display: flex;
   justify-content: center;
 }
@@ -8,16 +8,37 @@ body {
   
 }
 .saudacao{
- 
+  font-size: 60px;
+  margin-bottom: 20px;
+  margin-top: 50px;
 }
-.ranting{
-
+.rating{
+  font-size: 50px;
+  
 }
 
 .card{
   display: flex;
+  margin-top: 15px;
+  width: 700px;
+  height: 150px;
+  background: rgb(74, 84, 171);
+  border-radius: 10px;
+  color: white;
+  justify-content: center;
+  align-items: center;
 }
 
+.card h1{
+  font-size: 20px;
+}
+
+.card p{
+  font-size: 13px;
+}
 .foto{
-  width: 60px;
+  width: 90px;
+  height: 90px;
+  margin-right: 10px;
+  border-radius: 100%;
 }
