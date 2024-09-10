@@ -5,7 +5,7 @@ export default function Rating ({children}){
     .fill('☆')
     .map((star, index) => index < stars ? '★' : '☆');
     return(
-        <div>
+        <div className="rating">
           
         {starElements.join('')}
         </div>

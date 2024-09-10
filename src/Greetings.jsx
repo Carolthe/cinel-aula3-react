@@ -1,16 +1,13 @@
-import React from "react";
-
 const Saudacao = ({ idioma }) => {
-    const saudacao = idioma === 'pt' ? 'Olá' :
-                     idioma === 'en' ? 'Hello' :
-                     idioma === 'es' ? 'Hola' :
-                     idioma === 'fr' ? 'Bonjour' :
+    const saudacao = idioma === 'pt' ? 'Seja bem vindo!' :
+                     idioma === 'en' ? 'Welcome' :
+                     idioma === 'es' ? 'Bienvenido' :
+                     idioma === 'fr' ? 'Accueillir' :
                      'Idioma não suportado';
   
     return (
-      <div>
-        <button>
-        {saudacao}</button>
+      <div className="saudacao">
+        {saudacao}
       </div>
     );
   };
